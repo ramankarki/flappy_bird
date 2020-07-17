@@ -175,6 +175,7 @@ def game_loop():
                 sound["hit"].play()
                 if score > high_score:
                     high_score = score
+                update_highscore(high_score)
                 bird.y = window_height/3
                 bird.vel = 0
                 restart()
@@ -182,7 +183,6 @@ def game_loop():
         # event handling
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                update_highscore(high_score)
                 pygame.quit()
                 exit()
 
