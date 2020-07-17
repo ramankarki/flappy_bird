@@ -10,7 +10,7 @@ class Bird:
         self.y = 0        # y-axis of bird
         self.vel = 0                    # velocity
         self.gravity = 0.27             # gravity
-        self.flapping = -4            # flying speed
+        self.flapping = -4.5            # flying speed
         self.bird_surface = bird_object  # bird surface
         self.bird_rect = bird_object.get_rect()      # bird rectangle
 
