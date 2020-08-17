@@ -1,5 +1,5 @@
 # flappy_bird
-
+This is a clone of flappy bird game made with python with pygame.
 # required modules
 - pygame
 - os
